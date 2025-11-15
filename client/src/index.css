@@ -1,0 +1,12 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(43, 51, 87, 0.87);
+  background-color: #e2e2e2;
+  font-size: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  width: 100%;
+
+}

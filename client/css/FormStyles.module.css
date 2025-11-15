@@ -1,0 +1,87 @@
+/* FormStyles.module.css */
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 25rem;
+  margin: 30px auto;
+  padding: 30px; 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600; 
+  color: #333;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  transition: border-color 0.3s;
+  font-size: 1em;
+}
+
+.inputField:focus {
+  border-color: #6d7492; 
+  outline: none;
+  background-color: white;
+}
+
+.submitButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  font-size: 1em;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.errorMessage {
+  color: red;
+  margin-top: 5px;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.songList {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: white;
+  padding: 10px;
+  max-height: 200px; 
+  overflow-y: auto;
+}
+
+.songItem label {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.songItem label:hover {
+    background-color: #f0f0f0;
+}
